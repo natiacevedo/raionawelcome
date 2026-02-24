@@ -1,0 +1,71 @@
+:root {
+    --gris: #616161;
+    --gris-oscuro: #363636;
+    --naranja: #ff7a02;
+    --negro: #1a1a1a;
+    --blanco: #fbfbf9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+/* Welcome Page */
+
+.welcome {
+    position: relative;
+    height: 100vh;
+    background: url("img/peugeot.jpg") center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+    position: relative;
+    color: white;
+    z-index: 2;
+}
+
+.logo {
+    width: 180px;
+}
+
+.btn-country {
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    min-width: 220px;
+}
+
+.uy {
+    background-color: #00AEEF;
+    color: white;
+}
+
+.ar {
+    background-color: #74ACDF;
+    color: white;
+}
+
+.btn-country:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    color: white;
+}
