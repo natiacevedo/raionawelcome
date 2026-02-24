@@ -45,6 +45,9 @@ html{
 }
 
 .btn-country {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 15px 40px;
     font-size: 18px;
     font-weight: 500;
